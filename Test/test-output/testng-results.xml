@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-18T10:39:26 IST" name="Suite" finished-at="2023-12-18T10:39:59 IST" duration-ms="32916">
+    <groups>
+    </groups>
+    <test started-at="2023-12-18T10:39:26 IST" name="Test" finished-at="2023-12-18T10:39:59 IST" duration-ms="32916">
+      <class name="Test_Package.FAcebbok_test">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:28 IST" name="setUpTest" finished-at="2023-12-18T10:39:34 IST" duration-ms="6065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="loginToFacebookTest(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:34 IST" name="loginToFacebookTest" data-provider="loginData" finished-at="2023-12-18T10:39:37 IST" duration-ms="3386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.43765778E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFacebookTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:37 IST" name="tearDownTest" finished-at="2023-12-18T10:39:38 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:38 IST" name="setUpTest" finished-at="2023-12-18T10:39:41 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="loginToFacebookTest(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:41 IST" name="loginToFacebookTest" data-provider="loginData" finished-at="2023-12-18T10:39:45 IST" duration-ms="4022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[46568y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFacebookTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:45 IST" name="tearDownTest" finished-at="2023-12-18T10:39:45 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:45 IST" name="setUpTest" finished-at="2023-12-18T10:39:49 IST" duration-ms="3507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="loginToFacebookTest(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:49 IST" name="loginToFacebookTest" data-provider="loginData" finished-at="2023-12-18T10:39:52 IST" duration-ms="3456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tyr57tty89y7h678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFacebookTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:52 IST" name="tearDownTest" finished-at="2023-12-18T10:39:52 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:52 IST" name="setUpTest" finished-at="2023-12-18T10:39:55 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="loginToFacebookTest(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:55 IST" name="loginToFacebookTest" data-provider="loginData" finished-at="2023-12-18T10:39:59 IST" duration-ms="3329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65ty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFacebookTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:Test_Package.FAcebbok_test@6379eb]" started-at="2023-12-18T10:39:59 IST" name="tearDownTest" finished-at="2023-12-18T10:39:59 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- Test_Package.FAcebbok_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
